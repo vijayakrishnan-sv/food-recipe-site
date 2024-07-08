@@ -1,0 +1,107 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items",  
+		"title": "Recipes", 
+		"type": "object",
+        "required": [
+			"name",
+			"author",
+			"prepTime",
+			"cookTime",
+			"ingredients",
+			"description",
+			"category",
+			"serves",
+			"image",
+			"icon",
+			"nutrients",
+			"method"
+		],
+		"properties": {
+			"name": {
+				"title": "Name of the recipe", 
+				"type": "string"
+			},
+			"author": {
+				"title": "Author of recipe", 
+				"type": "string"
+			},
+			"rating": {
+				"title": "Rating", 
+				"type": "string"
+			},
+			"prepTime": {
+				"title": "Preparation time", 
+				"type": "string"
+			},
+			"cookTime": {
+				"title": "Cooking time", 
+				"type": "string"
+			},
+			"ingredients": {
+				"title": "Ingredients", 
+				"type": "array",
+				"default": [],
+				"items":{
+					"title": "Each ingredient", 
+					"type": "string"
+			
+				}
+			},
+			"description": {
+				"title": "Description", 
+				"type": "string"
+			},
+			"category": {
+				"title": "Category", 
+				"type": "string"
+			},
+			"serves": {
+				"title": "No of Serves", 
+				"type": "string"
+			},
+			"image": {
+				"title": "Recipe Image", 
+				"type": "string"
+			},
+			"icon": {
+				"title": "Recipe Icon", 
+				"type": "string"
+			},
+			"nutrients": {
+				"title": "Nutrients", 
+				"type": "array",
+				"default": [],
+				"items":{
+					"title": "Each Nutrient", 
+					"type": "object",
+					
+					"properties": {
+						"nutrient": {
+							"title": "Kcal", 
+							"type": "string"
+						}
+						
+					}
+				}
+
+			},
+			"method": {
+				"title": "Method", 
+				"type": "array",
+				"default": [],
+				"items":{
+					"title": "Items", 
+					"type": "string"
+					
+				}
+			}
+		}
+	}
+
+}

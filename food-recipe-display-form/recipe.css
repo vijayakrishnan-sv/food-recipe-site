@@ -1,0 +1,39 @@
+
+
+  table {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+th {
+    text-align: center;
+    color: #660000;
+    border: 1px solid black;
+    font-size: x-large;
+    font-family: 'Gill Sans';            
+}
+
+td {
+    background-color: #E4F5D4;
+    border: 1px solid black;
+    font-weight: lighter;
+    text-align: center;             
+    
+}
+
+h2{
+  background-color: aqua;
+  font-size: xx-large;
+  font-family: 'Gill Sans'; 
+  text-align: center; 
+}
+
+P{
+  font-size: x-large;
+  font-family: 'Gill Sans'; 
+  text-align: center; 
+}
+
+body{
+  background-color: aqua;
+}
